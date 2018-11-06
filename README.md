@@ -1,5 +1,5 @@
 # Node_PizzaSite
-Implements a basic NodeJS server for Pizza Delivery 
+Implements a basic NodeJS server for Pizza Delivery
 
 # Before you start
 * Make sure that you set all the API keys in config.js file
@@ -24,14 +24,14 @@ System stores their name, email address, and street address.
 4. Users and admin can log in and log out by creating or destroying a token.
 
 5. When a user is logged in, they are able to GET all the possible menu items.
-  5.1 Logged in users are be able to filter the menu items by the following params:
-    5.1.1 Price (more than, less than)
-    5.1.2 Category
+- Logged in users are be able to filter the menu items by the following params:
+-- Price (more than, less than)
+-- Category
 
 6. A logged-in user are be able to fill a shopping cart with menu items:
-6.1 add item to cart
-6.2 delete item from cart
-6.3 get the cart
+- add item to cart
+- delete item from cart
+- get the cart
 
 7. A logged-in user are be able to create an order (payment via Stripe API - provide keys in config.js)
 
@@ -45,4 +45,4 @@ System stores their name, email address, and street address.
 
 ----
 
-You may also find a Postman collection at /postman folder.
+You may also find a Postman collection at /postman folder and data structure with examples at ./.data
