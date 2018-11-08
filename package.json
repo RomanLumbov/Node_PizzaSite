@@ -6,10 +6,7 @@
   "directories": {
     "lib": "lib"
   },
-  "dependencies": {
-    "mailgun-js": "^0.22.0",
-    "stripe": "^6.12.1"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
