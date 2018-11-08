@@ -1,9 +1,11 @@
 # Node_PizzaSite
 Implements a basic NodeJS server for Pizza Delivery
 
+# Important
+This version runs in pure NodeJS without any additional dependencies.
+
 # Before you start
 * Make sure that you set all the API keys in config.js file
-* Run npm install
 
 # Quick Guide
 This project implements the following functionality (some additional functions were implemented as well):
@@ -25,8 +27,8 @@ System stores their name, email address, and street address.
 
 5. When a user is logged in, they are able to GET all the possible menu items.
 - Logged in users are be able to filter the menu items by the following params:
--- Price (more than, less than)
--- Category
+- Price (more than, less than)
+- Category
 
 6. A logged-in user are be able to fill a shopping cart with menu items:
 - add item to cart
